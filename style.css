@@ -1,6 +1,7 @@
 a {
   text-decoration: none;
-  color: aqua;
+  color: white;
+  font-weight: bolder;
 }
 
 .menubar {
@@ -11,16 +12,41 @@ a {
   justify-content: space-around;
   width: 40%;
   font-family: Arial, Helvetica, sans-serif;
+  z-index: 1;
 }
 
-.menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 40%;
-  align-items: center;
+.image1 {
+  position: relative;
+}
+
+.squished {
   position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  position: fixed;
-  color: white;
+  bottom: 200px;
+  padding-left: 50px;
+}
+
+.image2 {
+  position: relative;
+}
+
+.good {
+  position: absolute;
+  top: 1300px;
+  padding-left: 50px;
+  z-index: 1;
+}
+
+.image3 {
+  position: relative;
+}
+
+.squashed {
+  position: absolute;
+  top: 2050px;
+  padding-left: 50px;
+  z-index: 1;
+}
+
+footer {
+  text-align: center;
 }
